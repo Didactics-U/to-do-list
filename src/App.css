@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.app-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.app-input-item {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.primaryBtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.primaryBtn:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
